@@ -2,51 +2,91 @@
 <head>
     <title>FORM</title>
     </head>
- <body style="background-color:yellow;">
-    <h3 style="color:red;">Registration form</h3>
+ <body style="background-color:gray;">
+    <h3 style="color:indigo;">Registration form</h3>
     <hr><hr>
        <form>
-  <label>Name  </label>
-          <input type="text"><br><br>
-   <lable>Email</label>
-         <input type="Email"><br><br>
-   <label>password</label>
-          <input type="password"><br><br>
-    <label>Date of Birth</label>
-           <input type="date"><br><br>
-    <lable>MobileNo</label>
-         <input type="Number"><br><br>
-        <label>Gender</label><br>
-             <input type="radio">
-           <label>male</lable>
+    <fieldset style="width":100%;border-radius;20px;>
+     
+        <legend><h5> personal Info</h5></legend>
+    <table style="width:100%;">
+<tr>
+    <td>
+  <label>Name  </label></td></td>
+       <td>   <input type="text">
+                                </td> </tr>
+                                       
+  <tr>
+            <td> <lable>Email</label> </td>
+        <td> <input type="Email">  </td> </tr>
+
+        <tr>
+            <td> <label>password</label> </td>
+        <td>  <input type="password"></td></tr>
+
+  <tr>  
+        <td> <label>Date of Birth</label></td>
+         <td>  <input type="date"> </td> </tr>
+    
+    <tr>
+            <td> <lable>MobileNo</label></td>
+                 <td> <input type="Number"></td></tr></table>
+                                        </fieldset>
+   <fieldset style="width": 25%;border-redius="20px;"> 
+       <tr> <legend> <h5> Educaion </h5> </legend>  
+   <teble style="width:100%">
+       <tr> 
+     <td> <label>Gender</label></td>  </tr>
+       <tr>     
+            <td> <input type="radio"></td>
+          <td> <label>male</lable></td>     </tr>
                <input type="radio">
               <label>female</lable>
                   <input type="radio">
-            <label>Others</lable><br><br>
-                <label>Education</label><br>
-                    <input type="checkbox">
-                    <label>10<sup>th</label>
+            <label>Others</lable></center> 
+                <label>Education</label>
+             <center>  
+                     <input type="checkbox">
+                         <label>10<sup>th</label>
                       <input type="checkbox">
                      <label>12<sup>th</label>
                         <input type="checkbox"> 
-                         <label>B.sc</label><br>
-                   <label>Course</label><br>
-           <input type="checkbox">
-                   <label>Java</label>
+                         <label>B.Sc</label>   </center> </td>
+                
+    <tr>  
+        <td> <label>Course</label> </td>
+             <center>  <td> <input type="checkbox"> 
+                   <label>JAVA</label>
                    <input type="checkbox">
              <label>HTML</label>
                  <input type="checkbox">
-             <label>SQL</label><br><br>
-                <label>Address</label> 
-                    <textarea cols="35"row="15"></textarea><br><br>
-                      
-                   <label>city</label>
-         <select>
+             <label>SQL</label></td>    
+                                    </teble>
+                                              </fieldset>
+    <fieldset>
+<table>
+            <legend> <h5> Address </h5> </legend>
+               <!-- <teble style="width:100%">-->
+         <tr>     <td>  <label>Address</label> 
+                    <textarea cols="35"row="15"></textarea></td>
+       <tr>               
+                <td>   <label>city</label> </td>
+       <td>  <select>
                 <option value="tricy">Trucy</option>
                 <option value="chennai">Chennai</option>
                 <option value="mathurai">Mathurai</option>
-        </select><br><br>
-          <input type="submit" value="save">
+        </select> </td>          </tr>
+
+       <tr>     
+                <td> <label>pincode</label> </td>
+                <td>    <input type="Pincode"> </td>        
+                                                            </tr>
+    </teble>
+<fieldset>
+<table>
+        <center>  <input type="submit" value="save">
+                <input type="reset"value="cancel" style="background-color:red"> </table>
+                                                                                            </fieldset>
      </form>
   </body>
 </html>
