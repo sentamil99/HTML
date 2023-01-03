@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.img{
+    margin:0 50px;
+    float: left;
+    height: 70px;
+}
+.link{
+    float: left;
+}
+.link a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: rgb(102, 91, 91);
+}
+.icon span{
+    line-height: 70px;
+    margin: 0px 10px;
+}
